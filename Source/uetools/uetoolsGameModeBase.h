@@ -7,11 +7,9 @@
 #include "uetoolsGameModeBase.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
-class UETOOLS_API AuetoolsGameModeBase : public AGameModeBase
-{
-	GENERATED_BODY()
-	
+class UETOOLS_API AuetoolsGameModeBase : public AGameModeBase {
+  GENERATED_BODY()
 };
