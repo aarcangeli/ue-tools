@@ -11,5 +11,5 @@
  */
 UCLASS()
 class UETOOLS_API AuetoolsGameModeBase : public AGameModeBase {
-  GENERATED_BODY()
+    GENERATED_BODY()
 };

@@ -1,5 +1,6 @@
 BasedOnStyle: LLVM
 ColumnLimit: 180
+IndentWidth: 4
 BreakConstructorInitializers: BeforeComma
 IndentCaseLabels: true
 MaxEmptyLinesToKeep: 1
