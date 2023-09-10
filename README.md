@@ -4,4 +4,4 @@
 
 ### PakTools
 
-A variation of the UnrealPak tool that allows you to extract pak files and related ucas files.
+A variation of the UnrealPak tool that allows you to extract .pak files and .utac/.ucas files.
