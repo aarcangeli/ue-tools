@@ -46,6 +46,9 @@ bool ExecutePakTools(const TCHAR *CmdLine) {
         }
     }
 
+    // Print UE version
+    UE_LOG(LogPakFile, Display, TEXT("Using Unreal Engine %s"), *FEngineVersion::Current().ToString(EVersionComponent::Patch));
+
     FKeyChain KeyChain;
     LoadKeyChain(CmdLine, KeyChain);
     KeyChainUtilities::ApplyEncryptionKeys(KeyChain);
