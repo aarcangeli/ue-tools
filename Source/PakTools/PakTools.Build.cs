@@ -1,5 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 using System;
 using UnrealBuildBase;
 using UnrealBuildTool;
@@ -7,6 +5,8 @@ using UnrealBuildTool;
 public class PakTools : ModuleRules {
     public PakTools(ReadOnlyTargetRules Target)
         : base(Target) {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+
         PrivateDependencyModuleNames.AddRange(new[] {
             "Core",
             "CoreUObject",

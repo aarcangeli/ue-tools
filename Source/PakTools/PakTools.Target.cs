@@ -1,5 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 using UnrealBuildTool;
 using System.Collections.Generic;
 
@@ -12,7 +10,6 @@ public class PakToolsTarget : TargetRules {
         LaunchModuleName = "PakTools";
 
         bBuildDeveloperTools = false;
-        bUseMallocProfiler = false;
         bCompileWithPluginSupport = true;
         bIncludePluginsForTargetPlatforms = true;
 
